@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackageClasses = LprsController.class)
+@ComponentScan(basePackages="com.simply.poclprsserviceapp")
 public class PocLprsServiceAppApplication {
 
 	public static void main(String[] args) {
